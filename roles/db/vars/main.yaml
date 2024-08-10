@@ -1,2 +1,2 @@
-login_host: db
+login_host: 172.31.80.219
 root_password: ExpenseApp@1
