@@ -1,7 +1,7 @@
 - name: configuring frontend server
   hosts: frontend
   become: yes
-  vars-files:
+  vars_files:
   - credentials.yaml
   roles:
   - frontend
