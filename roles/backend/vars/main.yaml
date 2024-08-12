@@ -1,4 +1,4 @@
-DB_HOST: 172.31.93.198
+DB_HOST: 172.31.90.216
 login_user: root
 login_password: ExpenseApp@1
-login_host: 172.31.93.198
+login_host: 172.31.90.216
