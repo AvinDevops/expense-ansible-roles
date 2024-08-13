@@ -5,4 +5,4 @@
   - name: installing postfix
     ansible.builtin.dnf:
       name: postfix
-      state: latest
+      state: installed
