@@ -1,0 +1,16 @@
+- name: create ec2 and r53 records
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: create ec2 instance
+    ansible.aws.ec2_instance:
+      instance_type: t2.micro
+      name: "{{item}}"
+      image_id: ami-090252cbe067a9e58
+      tags:
+        Name: "{{item}}"
+    loop:
+    - DB
+    - Backend
+    - Frontend
+    register: ec2_instances_output
