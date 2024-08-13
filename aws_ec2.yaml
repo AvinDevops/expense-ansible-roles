@@ -4,8 +4,8 @@ regions:
 keyed groups:
 - key: tags['Name']
   prefix: ''
-  parent_group: ""
-filter:
+  parent_group: ''
+filters:
   tag:Name: "DB*"
 compose:
   ansible_host: private_ip_address
