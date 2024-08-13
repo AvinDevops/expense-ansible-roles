@@ -6,6 +6,6 @@ keyed groups:
   prefix: ''
   parent_group: ""
 filter:
-  tag:Name: "Backend*"
+  tag:Name: "DB*"
 compose:
   ansible_host: private_ip_address
